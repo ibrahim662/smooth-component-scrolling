@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Carousel-Contianer{
+    display: flex;
+    
+    width: 100vw;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    width: 100vw;
+    overflow: scroll;
+    
+
+&__One{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    scroll-snap-align: start;
+
+}
+&__Two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    scroll-snap-align: start;
+}
+&__Three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+&__Four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: blanchedalmond;
+    scroll-snap-align: start;
+}
+&__Five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+    scroll-snap-align: start;
+}
+&__Six{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    scroll-snap-align: start;
+}
+}

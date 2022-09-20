@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Pirachi World`,
+    title: `Smooth component scrolling`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
